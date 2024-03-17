@@ -28,7 +28,6 @@
     font-size: 2vw;
 }
 
-
 .section01 {
     margin: 12rem 0;
     display: flex;
@@ -43,7 +42,10 @@
     height: 70%;
     overflow: hidden;
     cursor: pointer;
-    transform: translateY(20px) translateX(-20px); 
+}
+
+.scrollSection {
+    transform: translateY(20px) ;
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
 }
@@ -59,7 +61,31 @@
     /* 이미지를 1.2배 확대 */
 }
 
-.section01Img--visible {
-    transform: translateY(0) translateX(0);
+.scrollSection--visible {
+    transform: translateY(0);
     opacity: 1;
+}
+
+.section02 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin: 0 0 12rem 0;
+    height: 100vh;
+}
+
+#section02Img {
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    /* 가운데 배치 */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo1>h1,
+.logo2>h1 {
+    font-size: 4.7vw;
 }

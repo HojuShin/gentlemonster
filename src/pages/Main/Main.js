@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import './main.css';
+import model from '../../assets/model.png'
 
 export default function Main() {
 
@@ -9,7 +10,7 @@ export default function Main() {
     // 컴포넌트가 처음으로 렌더링될 때 실행
     useEffect(() => {
         // .section01Img 클래스를 가진 요소들을 변수에 저장
-        const fadeElements = document.querySelectorAll(".section01Img");
+        const fadeElements = document.querySelectorAll(".scrollSection");
         // fadeRef.current에 fadeElements를 할당
         fadeRef.current = Array.from(fadeElements);
 
@@ -19,7 +20,7 @@ export default function Main() {
             fadeRef.current.forEach((img) => {
                 // 요소가 화면 안에 들어왔는지 확인하고 화면 안에 있다면 클래스 추가
                 if (isInView(img)) {
-                    img.classList.add("section01Img--visible");
+                    img.classList.add("scrollSection--visible");
                 }
             });
         };
@@ -59,9 +60,15 @@ export default function Main() {
             </div>
 
             <div className="section01" >
-                <div className="section01Img "> <img src="https://web-resource.gentlemonster.com/assets/stories/24-optical/collection/mo/optical-product-1.jpg" alt="item" loading="lazy" className="" /></div>
-                <div className="section01Img"> <img src="https://web-resource.gentlemonster.com/assets/stories/24-optical/collection/mo/optical-product-6.jpg" alt="item" loading="lazy" /></div>
-                <div className="section01Img"> <img src="https://web-resource.gentlemonster.com/assets/stories/24-optical/collection/mo/optical-product-3.jpg" alt="item" loading="lazy" /></div>
+                <div className="section01Img scrollSection"> <img src="https://web-resource.gentlemonster.com/assets/stories/24-optical/collection/mo/optical-product-1.jpg" alt="item" loading="lazy" className="" /></div>
+                <div className="section01Img scrollSection"> <img src="https://web-resource.gentlemonster.com/assets/stories/24-optical/collection/mo/optical-product-6.jpg" alt="item" loading="lazy" /></div>
+                <div className="section01Img scrollSection"> <img src="https://web-resource.gentlemonster.com/assets/stories/24-optical/collection/mo/optical-product-3.jpg" alt="item" loading="lazy" /></div>
+            </div>
+
+            <div className="section02 scrollSection">
+                <div className="logo1"><h1>GENTLE</h1></div>
+               <img src={model} alt="model" id="section02Img"></img>
+                <div className="logo2"><h1>MONSTER</h1></div>
             </div>
         </div>
     )
