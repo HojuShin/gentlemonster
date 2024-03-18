@@ -26,6 +26,7 @@
 .main-desc>p {
     /* font-size: 32px; */
     font-size: 2vw;
+    font-family: "Oswald", sans-serif;
 }
 
 .section01 {
@@ -164,10 +165,16 @@
 
 .section05-img-bx1>p {
     margin: 76px 0 8px 0;
+    font-weight: bold;
+    font-family: "Nanum Myeongjo", serif;
+    font-style: normal;
 }
 
 .section05-img-bx2>p {
     margin-bottom: 8px;
+    font-family: "Nanum Myeongjo", serif;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .section06 {
@@ -257,6 +264,9 @@
     font-size: 4vw;
     color: #eee;
     text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .sct08-btn {
@@ -275,6 +285,9 @@
     letter-spacing: 1px;
     cursor: pointer;
     transition: .4s all;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .sct08-btn>button:hover {
@@ -285,4 +298,60 @@
     /* 배경 크기 100% 200%로 설정하여 세로 두 배로 설정 */
     background-position: 0 bottom;
     /* 초기 배경 위치 설정 */
+}
+
+.sticky-scrollUp {
+    position: fixed;
+    bottom: 1vw;
+    left: 50%;
+    z-index: 4;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+}
+
+.upBtn {
+    pointer-events: auto;
+    /* 마우스 이벤트 수신 */
+    cursor: pointer;
+    background: none;
+    border: none;
+    opacity: 0;
+    transition: 0.8s ease;
+}
+
+#up {
+    width: 2vw;
+    height: 2.3vw;
+}
+
+.sticky-title {
+    position: fixed;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    left: 0;
+    top: 50%;
+    left: -130px;
+    opacity: 0;
+    /* 초기에 투명하게 설정 */
+    transition: 0.8s ease;
+}
+
+.sticky-title>p {
+    font-size: 14px;
+    color: #494949;
+    margin: 0
+}
+
+.sticky-title.active,
+.upBtn.active {
+    opacity: 1;
+    /* 요소 보여짐 */
+    transition: opacity 0.8s ease;
+    /* 부드러운 효과 트랜지션 추가 */
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import './main.css';
 import model from '../../assets/model.png'
+import Sticky from "../../components/Sticky";
 
 export default function Main() {
 
@@ -138,7 +139,9 @@ export default function Main() {
                     </div>
                 </div>
             </div>
-            
+            <Sticky />
+
+
         </div>
     )
 }
