@@ -45,7 +45,7 @@
 }
 
 .scrollSection {
-    transform: translateY(20px) ;
+    transform: translateY(20px);
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
 }
@@ -88,4 +88,201 @@
 .logo1>h1,
 .logo2>h1 {
     font-size: 4.7vw;
+}
+
+.section03 {
+    margin: 0 0 12rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section03Img {
+    width: 50%;
+}
+
+.section03Img-2 {
+    width: 35%;
+    margin: 16.5% auto 0 4.3%;
+}
+
+.section04 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.section04Img {
+    width: 70%;
+}
+
+.section05 {
+    width: 100%;
+    height: 100%;
+    margin: 130px 0;
+    /* background-color: #fafafa; */
+    position: relative;
+    height: 100vh;
+}
+
+.section05-title {
+    width: 100%;
+}
+
+.section05-title>p {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20vw;
+    margin: 0;
+    position: absolute;
+    z-index: -1;
+    left: -10vw;
+    top: 13vw;
+}
+
+.section05-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section05-img-bx1 {
+    width: 30%;
+}
+
+.section05-img-bx2 {
+    width: 25%;
+}
+
+.section05-img-bx1>img,
+.section05-img-bx2>img {
+    width: 100%;
+}
+
+.section05-img-bx1>p {
+    margin: 76px 0 8px 0;
+}
+
+.section05-img-bx2>p {
+    margin-bottom: 8px;
+}
+
+.section06 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 3vw 12rem 3vw;
+}
+
+.sct06-1,
+.sct06-2 {
+    display: flex;
+    gap: 10px
+}
+
+.sct06-1>div,
+.sct06-2>div {
+    flex: 1;
+}
+
+.sct06-1>div>img,
+.sct06-2>div>img {
+    width: 100%;
+}
+
+.section07 {
+    margin: 0 0 12rem 0;
+}
+
+.sct07-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.cl-1,
+.cl-2 {
+    width: 30%;
+    height: auto;
+}
+
+.cl-1 {
+    margin: 0 0 16% 0;
+}
+
+.cl-2 {
+    margin: 16% 0 0 0;
+}
+
+.sct07-2 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 13px;
+    height: 100%;
+}
+
+.sct07-2>img {
+    width: 25%;
+    height: 70%;
+}
+
+.section08 {
+    margin: 0 10%;
+    position: relative;
+}
+
+.sct08-1 img {
+    width: 100%;
+    position: relative;
+}
+
+.sct08-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.sct08-2>h1 {
+    font-size: 4vw;
+    color: #eee;
+    text-align: center;
+}
+
+.sct08-btn {
+    justify-content: center;
+    display: flex;
+    gap: 5%;
+}
+
+.sct08-btn>button {
+    width: 15vw;
+    padding: 1vw;
+    background: transparent;
+    border: 1px solid #eee;
+    color: white;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .4s all;
+}
+
+.sct08-btn>button:hover {
+    color: black;
+    /* background-color: #eee; */
+    background: linear-gradient(to bottom, transparent 50%, #eee 50%);
+    background-size: 100% 200%;
+    /* 배경 크기 100% 200%로 설정하여 세로 두 배로 설정 */
+    background-position: 0 bottom;
+    /* 초기 배경 위치 설정 */
 }

@@ -66,10 +66,79 @@ export default function Main() {
             </div>
 
             <div className="section02 scrollSection">
-                <div className="logo1"><h1>GENTLE</h1></div>
-               <img src={model} alt="model" id="section02Img"></img>
+                <div className="logo1 "><h1>GENTLE</h1></div>
+                <img src={model} alt="model" id="section02Img"></img>
                 <div className="logo2"><h1>MONSTER</h1></div>
             </div>
+
+            <div className="section03 scrollSection">
+                <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_VONZO_KC1_1_1.jpg" alt="model" className="section03Img-2" />
+                <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_VONZO_KC1_3.jpg" alt="model" className="section03Img" />
+            </div>
+
+            <div className="section04 scrollSection">
+                <img src="https://web-resource.gentlemonster.com/assets/stories/24-optical/collection/pc/optical-campaign-image-1.jpg" alt="model" loading="lazy" className="section04Img" />
+            </div>
+
+            <div className="section05">
+                <div className="section05-title"><p>GENTLEMONSTER</p></div>
+                <div className="section05-img scrollSection" >
+                    <div className="section05-img-bx1">
+                        <p>Rrr 02</p>
+                        <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_RRR_02.jpg" alt="model" className="section05Img"></img>
+                    </div>
+                    <div className="section05-img-bx2">
+                        <p>Atomic 02(B)</p>
+                        <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/WEB_BOLD_2024_PACKAGE_1920x2604.JPG" alt="model" className="section05Img2"></img>
+                    </div>
+                </div>
+            </div>
+
+            <div className="section06 scrollSection">
+                <div className="sct06-1">
+                    <div>
+                        <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_RRR_02_2.jpg" alt="Rrr 02" />
+                    </div>
+                    <div>
+                        <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_RRR_02_1.jpg" alt="Rrr 02" className="itemImg" />
+                    </div>
+                    <div className="empty"></div>
+                </div>
+                <div className="sct06-2">
+                    <div className="empty"></div>
+                    <div>
+                        <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_RRR_02_4.jpg" alt="Rrr 02" />
+                    </div>
+                    <div>
+                        <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_RRR_02_3.jpg" alt="Rrr 02" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="section07">
+                <div className="sct07-1 scrollSection">
+                    <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_THIRD_KIND_C1.jpg" alt="카인드 C1" className="cl-1" />
+                    <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_NOIZER_01OL_.jpg" alt="노이저 01" className="cl-2" />
+                </div>
+                <div className="sct07-2 scrollSection">
+                    <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_NOIZER_01OL__1.jpg" alt="노이저 01(OL)" />
+                    <img src="https://www-prd-kr.gentlemonster.com/media/catalog/product/cache/6c6f229b8a7ab97f51028776641e27d1/1/1/11001_THIRD_KIND_C1_1.jpg" alt="써드 카인드 C1" />
+                </div>
+            </div>
+
+            <div className="section08">
+                <div className="sct08-1">
+                    <img src="https://web-resource.gentlemonster.com/assets/stories/24-optical/collection/pc/optical-popup-1.jpg" alt="popup" />
+                </div>
+                <div className="sct08-2">
+                    <h1>GENTLE HIGH SCHOOL<br />POP-UP STORE</h1>
+                    <div className="sct08-btn">
+                        <button>자세히 보기</button>
+                        <button>안내받기</button>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     )
 }
