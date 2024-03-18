@@ -34,7 +34,7 @@ export default function Sticky() {
 
     return (
         <>
-            <div className={`sticky-title ${scrollPosition > 700 ? 'active' : ''}`}>
+            <div className='sticky-title'>
                 <p>24 OPTICAL COLLECTION · GENTLE MONSTER</p>
             </div>
             <div className="sticky-scrollUp">

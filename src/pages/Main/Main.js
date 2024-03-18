@@ -56,7 +56,7 @@ export default function Main() {
             <div className="main" >
                 <div id="mainImg"></div>
                 <div className="main-desc">
-                    <p>2024 OPTICAL COLLECTION</p>
+                    {/* <p>2024 OPTICAL COLLECTION</p> */}
                 </div>
             </div>
 

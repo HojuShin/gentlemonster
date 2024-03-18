@@ -337,8 +337,6 @@
     left: 0;
     top: 50%;
     left: -130px;
-    opacity: 0;
-    /* 초기에 투명하게 설정 */
     transition: 0.8s ease;
 }
 
